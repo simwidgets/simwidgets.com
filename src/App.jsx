@@ -21,28 +21,11 @@ export default function App() {
         <section className="products">
           <h2>Products</h2>
 
-          <article className="product">
-            <img
-              src="/weather-paper.png"
-              alt="Weather Paper — battery-powered e-paper weather display"
-              className="product-image"
-            />
-            <div className="product-body">
-              <h3>Weather Paper</h3>
-              <p>
-                A battery-powered e-paper weather display. Real National Weather Service
-                conditions, a 7-day forecast, and months of runtime on a single charge.
-              </p>
-              <div className="product-actions">
-                <a className="btn btn-primary" href="https://www.etsy.com/shop/SimWidgets" target="_blank" rel="noreferrer">
-                  Buy the kit
-                </a>
-                <a className="btn btn-ghost" href="https://github.com/simwidgets/weather-paper" target="_blank" rel="noreferrer">
-                  Firmware &amp; docs
-                </a>
-              </div>
-            </div>
-          </article>
+          <div className="coming-soon">
+            <span className="coming-soon-badge">Coming soon</span>
+            <h3>Our first product is on the way</h3>
+            <p>Check back in a couple of weeks.</p>
+          </div>
         </section>
       </main>
 
